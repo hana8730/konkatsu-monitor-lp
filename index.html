@@ -27,6 +27,10 @@
     .eight-badge { display:inline-flex; align-items:baseline; gap:5px; padding:8px 14px; border-radius:14px; background:var(--mint); font-size:13px; font-weight:900; }
     .eight-badge strong { font-size:30px; font-weight:900; color:#1f685e; line-height:1; letter-spacing:-.04em; }
 
+    .photo-row { display:flex; align-items:center; gap:14px; margin-bottom:18px; }
+    .photo-thumb { width:76px; height:76px; border-radius:14px; object-fit:cover; object-position:center 20%; border:3px solid #fff; box-shadow:var(--shadow); flex:0 0 auto; }
+    .photo-caption { font-size:7px; font-weight:800; color:#888; text-align:center; margin-top:3px; }
+    .photo-label { font-size:15px; font-weight:900; line-height:1.6; }
     .she-changed { font-size:17px; font-weight:900; margin:24px 0 12px; }
 
     /* ❌ブロック */
@@ -105,7 +109,13 @@
   <section class="hero">
     <p class="area fade">西東京市付近・練馬区付近限定</p>
 
-    <p class="result-lead fade">41歳のごく普通の会社員が</p>
+    <div class="photo-row fade">
+      <div>
+        <img class="photo-thumb" src="assets/before-41.png" alt="41歳ビフォア写真">
+        <p class="photo-caption">ご本人の許可を得て掲載</p>
+      </div>
+      <p class="photo-label">41歳ごくごく普通の<br>会社員が</p>
+    </div>
     <div class="fade">
       <div class="num-big">11<small>人</small></div>
       <p class="from-label">から1週間でお見合いのお申し込み。</p>
